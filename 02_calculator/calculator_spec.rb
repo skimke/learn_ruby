@@ -1,7 +1,7 @@
 # In this problem we are going to make a calculator. 
 
 # Remember to create the file!
-require "calculator.rb"
+require "./calculator.rb"
 
 # #add takes two parameters and adds them
 describe "add" do
@@ -52,12 +52,14 @@ end
 # If you feel you're up for the challenge, fill in the missing code in the tests below,
 # based off the descriptions, and get them to pass.
 
-describe "#multiply" do
+describe "multiply" do
 
-  it "multiplies two numbers" do 
+  it "multiply two numbers" do 
+    multiply([2,5]).should == 10
   end
 
-  it "multiplies several numbers" do
+  it "multiply several numbers" do
+    multiply([2,5,7]).should == 70
   end
 
 end
