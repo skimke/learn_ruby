@@ -1,4 +1,8 @@
 def reverser
-  new = yield.split
-  new = new.each {|word| word.reverse! }.join " "
+  result = yield.split
+  result = result.each {|word| word.reverse! }.join " "
+end
+
+def adder
+  num = yield
 end
