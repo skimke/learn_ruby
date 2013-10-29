@@ -27,7 +27,7 @@ describe "some silly block functions" do
       #   string.upcase
       # end
       # 
-      # example do 
+      # example do b
       #   "My name is Will Richman." # ...this line
       # end
       # 
