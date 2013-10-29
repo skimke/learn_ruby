@@ -6,3 +6,7 @@ end
 def adder
   num = yield
 end
+
+def repeater
+  
+end
