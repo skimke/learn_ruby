@@ -15,3 +15,6 @@ def multiply(x)
   result = x.inject(:*)
   return result
 end
+
+def factorial(x)
+end
