@@ -3,10 +3,10 @@ def reverser
   result = result.each {|word| word.reverse! }.join " "
 end
 
-def adder
-  num = yield
+def adder(num = 1)
+  yield + num
 end
 
-def repeater
-  
+def repeater(n = 1)
+  n.times{yield}
 end
