@@ -1,17 +1,13 @@
 class Timer
-  def initialize(seconds = 0)
-    @seconds = seconds
+  def initialize(seconds)
+    @seconds = 0
   end
 
   def seconds
     @seconds
   end
 
-  def seconds=(num)
-    @seconds = seconds
-  end
-
   def time_string
-    
+    puts "#{}:#{}:#{}"
   end
 end
