@@ -28,6 +28,8 @@ class Temperature
   end
 end
 
+# answer is right there in the test file
+
 class Celsius < Temperature
   def initialize(val)
     super({:c => val})
