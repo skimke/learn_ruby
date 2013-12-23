@@ -1,0 +1,17 @@
+== Learn Ruby
+
+An assignment from Bitmaker Labs:
+
+Test-First Teaching: learn_ruby
+
+* hello
+* temperature
+* calculator
+* simon_says
+* pig_latin
+* silly_blocks
+* hello_friend
+* book_titles
+* timer
+* array_extensions
+* temperature_object
